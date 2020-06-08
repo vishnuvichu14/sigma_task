@@ -99,9 +99,41 @@ class _page2State extends State<page2> {
                                         ),
                                       ),
                                       Text(
-                                        data['json'][index]['buildingName'],
-                                        style: TextStyle(
-                                          fontSize: 18,
+                                          data['json'][index]['buildingName'],
+                                          style: TextStyle(
+                                            fontSize: 18,
+                                          ),
+                                        ),
+                                      SizedBox(width:15),
+                                      Expanded(
+                                        child: Row(
+                                          children: <Widget>[
+                                            Icon(
+                                              Icons.star,
+                                              size: 20.0,
+                                              color: Colors.lightBlueAccent,
+                                            ),
+                                            Icon(
+                                              Icons.star,
+                                              size: 20.0,
+                                              color: Colors.lightBlueAccent,
+                                            ),
+                                            Icon(
+                                              Icons.star,
+                                              size: 20.0,
+                                              color: Colors.lightBlueAccent,
+                                            ),
+                                            Icon(
+                                              Icons.star,
+                                              size: 20.0,
+                                              color: Colors.lightBlueAccent,
+                                            ),
+                                            Icon(
+                                              Icons.star_half,
+                                              size: 20.0,
+                                              color: Colors.lightBlueAccent,
+                                            ),
+                                          ],
                                         ),
                                       ),
                                     ],
@@ -118,48 +150,18 @@ class _page2State extends State<page2> {
                                         Icons.location_on,
                                         size: 18.0,
                                       ),
-                                      Text(
-                                        data['json'][index]['streetDetails'],
-                                        style: TextStyle(
-                                          fontSize: 15,
-                                        ),
-                                      ),
+                                     Text(
+                                       data['json'][index]['streetDetails'],
+                                       style: TextStyle(
+                                         fontSize: 15,
+                                       ),
+                                     ),
                                     ],
                                   ),
                                 ],
                               ),
-                              SizedBox(
-                                width: 17,
-                              ),
-                              Row(
-                                children: <Widget>[
-                                  Icon(
-                                    Icons.star,
-                                    size: 20.0,
-                                    color: Colors.lightBlueAccent,
-                                  ),
-                                  Icon(
-                                    Icons.star,
-                                    size: 20.0,
-                                    color: Colors.lightBlueAccent,
-                                  ),
-                                  Icon(
-                                    Icons.star,
-                                    size: 20.0,
-                                    color: Colors.lightBlueAccent,
-                                  ),
-                                  Icon(
-                                    Icons.star,
-                                    size: 20.0,
-                                    color: Colors.lightBlueAccent,
-                                  ),
-                                  Icon(
-                                    Icons.star_half,
-                                    size: 20.0,
-                                    color: Colors.lightBlueAccent,
-                                  ),
-                                ],
-                              ),
+                             ,
+
                             ],
                           ),
                           SizedBox(
