@@ -42,7 +42,9 @@ class _page2State extends State<page2> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
       body: data != null?Column(
           children: <Widget>[
             Container(
