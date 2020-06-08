@@ -104,37 +104,35 @@ class _page2State extends State<page2> {
                                             fontSize: 18,
                                           ),
                                         ),
-                                      SizedBox(width:15),
-                                      Expanded(
-                                        child: Row(
-                                          children: <Widget>[
-                                            Icon(
-                                              Icons.star,
-                                              size: 20.0,
-                                              color: Colors.lightBlueAccent,
-                                            ),
-                                            Icon(
-                                              Icons.star,
-                                              size: 20.0,
-                                              color: Colors.lightBlueAccent,
-                                            ),
-                                            Icon(
-                                              Icons.star,
-                                              size: 20.0,
-                                              color: Colors.lightBlueAccent,
-                                            ),
-                                            Icon(
-                                              Icons.star,
-                                              size: 20.0,
-                                              color: Colors.lightBlueAccent,
-                                            ),
-                                            Icon(
-                                              Icons.star_half,
-                                              size: 20.0,
-                                              color: Colors.lightBlueAccent,
-                                            ),
-                                          ],
-                                        ),
+                                      SizedBox(width:23),
+                                      Row(
+                                        children: <Widget>[
+                                          Icon(
+                                            Icons.star,
+                                            size: 20.0,
+                                            color: Colors.lightBlueAccent,
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            size: 20.0,
+                                            color: Colors.lightBlueAccent,
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            size: 20.0,
+                                            color: Colors.lightBlueAccent,
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            size: 20.0,
+                                            color: Colors.lightBlueAccent,
+                                          ),
+                                          Icon(
+                                            Icons.star_half,
+                                            size: 20.0,
+                                            color: Colors.lightBlueAccent,
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
@@ -160,7 +158,6 @@ class _page2State extends State<page2> {
                                   ),
                                 ],
                               ),
-                             ,
 
                             ],
                           ),
